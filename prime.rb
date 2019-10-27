@@ -1,9 +1,9 @@
 def prime?(b)
-  if n <= 1
+  if b <= 1
     return false
-  elsif n <= 3
+  elsif b <= 3
     return true
-  else (2..n/2).none? do |x|
-    n % x == 0
+  else (2..b/2).none? do |x|
+    b % x == 0
   end
   end
