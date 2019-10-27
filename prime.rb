@@ -6,4 +6,3 @@ def prime?(b)
   else (2..b/2).none? do |x|
     b % x == 0
   end
-  end
